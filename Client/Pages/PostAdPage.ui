@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PostAdPage</class>
+ <widget class="QWidget" name="PostAdPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lbl_title">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>   📝 Post New Ad</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> ← Back to Menu  </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_title_field">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>37</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Title:   </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_category_field">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Category:    </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_price_field">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>110</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Price:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_description_field">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Description:   </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_images_field">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Images: </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_post_ad">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>360</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>   Post Ad    </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_image_preview">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>270</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_title">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_price">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>110</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_category">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>All categories</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>💻 Digital Goods</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>🏠 Home &amp; Kitchen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>🔧 Household Appliances</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>💄 Beauty </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>👗 Fashion &amp; Clothing</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>💍 Gold &amp; Silver</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>🚗 Cars &amp; Motorcycles</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>🏥 Health &amp; Medical</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>📚 Books &amp; Stationery</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>🛒 Online Supermarket</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>🧸 Toys</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTextEdit" name="txt_description">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_choose_image">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>290</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose image</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
